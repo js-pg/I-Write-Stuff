@@ -1,0 +1,29 @@
+/* @import url('http://fonts.cdnfonts.com/css/helvetica-neue-9'); */
+
+* {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	overflow-x: hidden;
+}
+
+.plus--active {
+	transform: rotate(90deg);
+}
+
+.scale--active {
+	height: 0px;
+	transform-origin: top;
+	transition-delay: .3s;
+}
+.nav div {
+	margin-bottom: 10px;
+}
+
+.pointer-events-none {
+	pointer-events: none;
+}
